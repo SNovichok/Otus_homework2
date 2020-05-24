@@ -8,7 +8,7 @@ else()
 set(VERSION_NUMBER "0.0.$ENV{TRAVIS_BUILD_NUMBER}")
 endif()
 
-project(ip_filter VERSION ${VERSION_NUMBER})
+project(homework2 VERSION ${VERSION_NUMBER})
 
 add_subdirectory(src)
 add_subdirectory(lib)
