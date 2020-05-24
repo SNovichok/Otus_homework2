@@ -29,7 +29,7 @@ target_include_directories(
 # Link test target against gtest libraries
 target_link_libraries(
     test_sort PUBLIC
-    lib
+    ip_address
     gtest gtest_main
 )
 
